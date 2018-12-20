@@ -15,10 +15,13 @@
             <label>Please enter a zip code to search for</label>
             <div class="input-group">
                 <input type="number" class="zip-code form-control" length="5" placeholder="30324" />
-                <button type="submit" class="btn btn-success">Get Weather</button>
+                <button type="submit" class="btn btn-success daily">Get Daily</button>
+                <button type="submit" class="btn btn-success weekly">Get Weekly</button>
+                <button type="submit" class="btn btn-success">Get Monthly</button>
             </div>
         </form>
         <div class="col-12 weather-data"></div>
+        <canvas id="weather-canvas" height="500px" width="500px"></canvas>
     </div>
 </div>
 
